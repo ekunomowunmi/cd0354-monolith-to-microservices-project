@@ -12,3 +12,18 @@ export const config = {
     'secret': process.env.JWT_SECRET,
   },
 };
+
+// export const config = {
+//   'username': 'monolithdevwunmi',
+//   'password': 'monolithdevwunmi',
+//   'database': 'monolithdevwunmi',
+//   'host': 'cdr.cuhvzbfkcyne.us-east-1.rds.amazonaws.com',
+//   'dialect': 'postgres',
+//   'aws_region': 'us-east-1',
+//   'aws_profile': 'default',
+//   'aws_media_bucket': 'arn:aws:s3:::monolith-138202428557-dev',
+//   'url': 'http://localhost:8100',
+//   'jwt': {
+//     'secret': 'testing',
+//   },
+// };
