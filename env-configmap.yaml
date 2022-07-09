@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  AWS_BUCKET: arn:aws:s3:::monolith-138202428557-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: monolithdevwunmi
+  POSTGRES_HOST: cdr.cuhvzbfkcyne.us-east-1.rds.amazonaws.com
+  URL: https://DB07B129A9345FBF2E1DFF0EC442632B.sk1.us-east-1.eks.amazonaws.com
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: myconfig
