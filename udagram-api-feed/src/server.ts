@@ -23,6 +23,15 @@ import {V0_FEED_MODELS} from './controllers/v0/model.index';
   // We set the CORS origin to * so that we don't need to
   // worry about the complexities of CORS this lesson. It's
   // something that will be covered in the next course.
+  // const cors = require('cors');
+  // const corsOptions ={
+  //     origin:'http://localhost:3000', 
+  //     credentials:true,            //access-control-allow-credentials:true
+  //     optionSuccessStatus:200
+  // }
+  // app.use(cors(corsOptions));
+
+
   app.use(cors({
     allowedHeaders: [
       'Origin', 'X-Requested-With',
